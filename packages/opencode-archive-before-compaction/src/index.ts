@@ -13,7 +13,7 @@ import type { Plugin } from "@opencode-ai/plugin"
 import { mkdir, writeFile, readFile } from "node:fs/promises"
 import { existsSync } from "node:fs"
 import { createHash } from "node:crypto"
-import path from "node:path"
+import * as path from "node:path"
 
 type SessionMessage = {
   info: {
