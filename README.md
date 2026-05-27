@@ -1,3 +1,4 @@
+git@github.com:jeremyakers/opencode-plugins.git
 # OpenCode Plugins
 
 Collection of OpenCode plugins maintained in this repository.
